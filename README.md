@@ -44,7 +44,7 @@ Here is some sample output from the function.
 
 source("best.R")
 best("TX", "heart attack")
-<n>[1] "CYPRESS FAIRBANKS MEDICAL CENTER"
+/n [1] "CYPRESS FAIRBANKS MEDICAL CENTER"
 
 best("TX", "heart failure")
 [1] "FORT DUNCAN MEDICAL CENTER"
