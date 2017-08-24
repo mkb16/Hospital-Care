@@ -41,8 +41,8 @@ outcome value is passed to best, the function should throw an error via the stop
 message “invalid outcome”.
 
 Here is some sample output from the function.
-<b> source("best.R")
-<b> best("TX", "heart attack")
+<n> source("best.R")
+<n> best("TX", "heart attack")
 [1] "CYPRESS FAIRBANKS MEDICAL CENTER"
 > best("TX", "heart failure")
 [1] "FORT DUNCAN MEDICAL CENTER"
