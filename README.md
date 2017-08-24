@@ -108,9 +108,9 @@ Here is some sample output from the function.
 
 source("rankall.R")
 head(rankall("heart attack", 20), 10)
-    | hospital | state
----------| ---------
-AK |<NA> | AK
+|    | hospital | state |
+|---------| ---------|-------|
+| AK |<NA> | AK |
 AL |D W MCMILLAN MEMORIAL HOSPITAL | AL
 AR | ARKANSAS METHODIST MEDICAL CENTER | AR
 AZ | JOHN C LINCOLN DEER VALLEY HOSPITAL | AZ
