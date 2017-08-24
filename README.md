@@ -110,7 +110,7 @@ source("rankall.R")
 head(rankall("heart attack", 20), 10)
 
 | hospital | state |
+|----------|-------|
 
-| AK |<NA> | AK |
 
 
