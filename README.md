@@ -26,7 +26,8 @@ outcome-of-care-measures.csv file).
 
 ## The following issues are addressed 
 
-#* Finding the best hospital in a state
+# Finding the best hospital in a state
+
 This function called best takes two arguments: the 2-character abbreviated name of a state and an
 outcome name. The function reads the outcome-of-care-measures.csv file and returns a character vector
 with the name of the hospital that has the best (i.e. lowest) 30-day mortality for the specified outcome
@@ -40,8 +41,8 @@ outcome value is passed to best, the function should throw an error via the stop
 message “invalid outcome”.
 
 Here is some sample output from the function.
-> source("best.R")
-> best("TX", "heart attack")
+<b> source("best.R")
+<b> best("TX", "heart attack")
 [1] "CYPRESS FAIRBANKS MEDICAL CENTER"
 > best("TX", "heart failure")
 [1] "FORT DUNCAN MEDICAL CENTER"
